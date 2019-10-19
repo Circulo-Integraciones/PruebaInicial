@@ -21,3 +21,6 @@ rm 'app/assets/images/rails.png'
 $ git status
 
 git commit -m "Actualización cambio en archivo comando"
+
+git log
+muestra los cambios por cada commit.
