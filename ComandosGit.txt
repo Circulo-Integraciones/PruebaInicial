@@ -29,6 +29,7 @@ git checkout "codigo del log" lleva al respaldo indicado
 git checkout master lleva al ultimo commit realizado dentro de todas las ramas
 
 se agrego reset esto es para el log. dejar una version
+git reset --soft codigo-Log (no toca el codigo solo elimina el log)
 
 Ramas:
 ahora se creo el branch para generar diferentes lineas de tiempo, 
@@ -44,4 +45,14 @@ git branch -D rama (para eliminar)
 
 crear una rama y cambiarse a la vez:
 git checkout -b Produccion.
+
+***********
+github:
+git remote add https://github.com/Manuel172/PruebaInicial.git
+git remote -v (ve estado conectado al proyecto)
+git remote remove origin (eliminar proyecto de github)
+git push origin master  (sube los codigos)
+pide usuario y clave de github
+
+
 
