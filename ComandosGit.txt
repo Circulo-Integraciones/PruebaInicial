@@ -43,3 +43,5 @@ eliminar ramas:
 git branch -D rama (para eliminar)
 
 crear una rama y cambiarse a la vez:
+git checkout -b Produccion.
+
