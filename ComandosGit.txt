@@ -30,8 +30,12 @@ git checkout master lleva al ultimo commit realizado dentro de todas las ramas
 
 se agrego reset esto es para el log. dejar una version
 
+Ramas:
 ahora se creo el branch para generar diferentes lineas de tiempo, ejemplo desarrollo, test, QA, produccion.
 ademas esta el merge
-para esto dfebes ir a la rama donde queremos agregar los cambios
+fusionar ramas:
+para esto debes ir a la rama donde queremos agregar los cambios
 y git merge test (la rama que queremos taer)
+eliminar ramas:
+git branch -D rama (para eliminar)
 
