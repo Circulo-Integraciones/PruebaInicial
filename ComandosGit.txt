@@ -24,3 +24,9 @@ git commit -m "Actualización cambio en archivo comando"
 
 git log
 muestra los cambios por cada commit.
+
+git checkout "codigo del log" lleva al respaldo indicado
+git checkout master lleva al ultimo commit realizado dentro de todas las ramas
+
+se agrego reset esto es para el log. dejar una version
+
