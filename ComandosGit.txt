@@ -4,7 +4,7 @@ echo cd Aplicativos/Proyectos/ >> ~/.bashrc
 logout
 para cambiar el directorio.
 
-git init (inicia monitoreo de la carpeta cambia a master ene la linea de comando)
+git init (inicia monitoreo de la carpeta cambia a master en la linea de comando)
 
 git status : nos da el estado que carpetas no han sido agregadas.
 
@@ -53,6 +53,22 @@ git remote -v (ve estado conectado al proyecto)
 git remote remove origin (eliminar proyecto de github)
 git push origin master  (sube los codigos)
 pide usuario y clave de github
+ver los issues -> milestone y label para tiempo y etiqueta.
+*******************************************
+cambio en los commit
+
+git commit --amend -m "se cambia la ultimo tag del commit"
+forzar subida a github despues de la modificacion con 
+git push origin master -f
+********* tag anotadas.
+git tag -a v1.0 -m "mensaje tag anotadas"
+estas son almacenadas como objeto.
+********** tag ligeras
+git tag v.1.0
+**********tag especificos a un comiit o codigo SHA.
+git tag -a v1.0 -m 'mensaje' codigo-sha
+***subir todos los tag
+git push origin --tags
 
 
 
