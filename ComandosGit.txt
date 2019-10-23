@@ -73,8 +73,9 @@ git push origin --tags
 
 ****************ramas ocultas
 git branch -a
-*************** bajar cambios o commit del grupo
-git fech origin 
+*************** bajar cambios al equipo local
+git fetch origin 
+******************************
 git merge origin/master
 
 
