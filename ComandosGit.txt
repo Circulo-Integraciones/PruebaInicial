@@ -75,6 +75,7 @@ git push origin --tags
 git branch -a
 *************** bajar cambios al equipo local
 git fetch origin 
+(subir cambios con git push origin master despues del commit)
 ******************************
 git merge origin/master
 
