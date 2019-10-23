@@ -69,6 +69,8 @@ git tag v.1.0
 git tag -a v1.0 -m 'mensaje' codigo-sha
 ***subir todos los tag
 git push origin --tags
+****************
+traspasar a otros usuarios
 
 
 
